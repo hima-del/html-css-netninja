@@ -1,0 +1,54 @@
+p {
+  color: orange;
+  font-size: 20px;
+  background-color: slategray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  column-count: 3;
+  column-gap: 10px;
+}
+ul,
+li {
+  list-style-type: square;
+  /* color:blue;
+    border-width: 4px;
+    border-style: solid;
+    border-color: crimson; */
+}
+span {
+  /*display: block;*/
+  /*margin: 200px;*/
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+h2 {
+  display: inline;
+}
+.flora {
+  color: black;
+  background-color: coral;
+  column-count: auto;
+  text-decoration: none;
+  text-align: justify;
+}
+#content {
+  color: purple;
+  font-family: monospace;
+  font-size: large;
+}
+img {
+  padding: 20px;
+  margin: 20px;
+}
+a[href*="google"] {
+  text-decoration: none;
+  color: palevioletred;
+  text-transform: capitalize;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
