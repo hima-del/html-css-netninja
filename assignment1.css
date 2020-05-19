@@ -1,0 +1,54 @@
+.topbar {
+  background-color: #cccccc;
+  border: 1px solid black;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+.main {
+  background-color: #dbdde2;
+}
+.menu {
+  margin: 20px;
+  padding: 20px;
+  display: inline;
+}
+a {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid red;
+  text-decoration: none;
+  background-color: #cccccc;
+}
+.document {
+  background-color: #dae8fc;
+  border: 1px solid steelblue;
+  text-align: center;
+  margin: 40px;
+  padding: 10px;
+}
+.forms {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.forms,
+label {
+  /* padding: 20px;
+    margin: 20px; */
+  align-items: center;
+}
+.forms,
+input {
+  align-items: inherit;
+}
+.button {
+  background-color: #cccccc;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
