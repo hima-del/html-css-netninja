@@ -1,23 +1,23 @@
 **BASICS OF HTML AND CSS**
 * HTML is the standard markup language for Web pages.
-* HTML headings are defined with the <h1> to <h6> tags.
-* <h1> defines the most important heading. <h6> defines the least important heading
-* HTML paragraphs are defined with the <p> tag
-* HTML links are defined with the <a> tag
+* HTML headings are defined with the h1 to h6 tags.
+* h1 defines the most important heading. h6 defines the least important heading
+* HTML paragraphs are defined with the p tag
+* HTML links are defined with the a tag
 * The link's destination is specified in the href attribute
-* HTML images are defined with the <img> tag.The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+* HTML images are defined with the img tag.The img tag is empty, it contains attributes only, and does not have a closing tag.
 The src attribute specifies the URL (web address) of the image
 * The source file (src), alternative text (alt), width, and height are provided as attributes
 
-* HTML lists are defined with the <ul> (unordered/bullet list) or the <ol> (ordered/numbered list) tag, followed by <li>  tags (list items)
+* HTML lists are defined with the ul (unordered/bullet list) or the ol (ordered/numbered list) tag, followed by li  tags (list items)
 
-* <b> - Bold text
-* <strong> - Important text
-* <i> - Italic text
-* <em> - Emphasized text
-* <small> - Small text
+* b - Bold text
+* strong - Important text
+* i - Italic text
+* em - Emphasized text
+* small - Small text
 
-* The HTML <blockquote> element defines a section that is quoted from another source
+* The HTML blockquote element defines a section that is quoted from another source
 
 **padding and margin**
 
@@ -69,19 +69,19 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 
 **The ::first-line Pseudo-element**
 * The ::first-line pseudo-element is used to add a special style to the first line of a text.
-* The following example formats the first line of the text in all <p> elements:
+* The following example formats the first line of the text in all p elements:
 
 **The ::first-letter Pseudo-element**
 * The ::first-letter pseudo-element is used to add a special style to the first letter of a text.
-* The following example formats the first letter of the text in all <p> elements:
+* The following example formats the first letter of the text in all p elements:
 
 **The ::before Pseudo-element**
 * The ::before pseudo-element can be used to insert some content before the content of an element.
-* The following example inserts an image before the content of each <h1> element:
+* The following example inserts an image before the content of each h1 element:
 
 **The ::after Pseudo-element**
 * The ::after pseudo-element can be used to insert some content after the content of an element.
-* The following example inserts an image after the content of each <h1> element:
+* The following example inserts an image after the content of each h1 element:
 
 **The ::selection Pseudo-element**
 * The ::selection pseudo-element matches the portion of an element that is selected by a user.
