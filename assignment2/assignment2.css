@@ -43,18 +43,8 @@ span.sec3 {
 h1 {
   margin: 1px;
 }
+
 .button {
-  border: 1px solid black;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 250px;
-}
-.button2 {
   background-color: green;
   border: 1px solid black;
   color: black;
@@ -62,7 +52,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 4px 2px;
+  
   cursor: pointer;
   border-radius: 15px;
 }
@@ -96,16 +86,70 @@ h1 {
   margin: 1px;
   width: 100px;
 }
-.contents {
-  margin: 50px;
-}
+
 a {
   color: blue;
   font-size: 25px;
 }
-.main {
-  align-items: center;
-}
 .container {
   margin-left: 300px;
+}
+label{
+  width: 60px;
+  display: inline-block;
+  text-align: left
+}
+.radiobox{
+  display: inline;
+    border: 1px solid  #8c8c8c; 
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 6%; */
+}
+.addressclass{
+  position: relative;
+  margin-top: 10px;
+  
+}
+.box{
+  margin-top: 1px;
+    margin-left: 20%;
+
+}
+.button2 {
+  background-color: green;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.container {
+  margin-left: 170px;
+}
+.forms{
+  align-items: center;
+  padding-left: 500px;
+  margin-top: 50px;
+}
+.inputclass{
+  margin-left: 100px;
+}
+.radiobox{
+  margin-left: 100px;
+}
+.websiteclass{
+  margin-left: 100px;
+  font-size: 104%;
+}
+.select{
+  margin-left: 100px;
+}
+.bottomportion{
+  margin-left: 400px;
 }
