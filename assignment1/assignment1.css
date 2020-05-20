@@ -13,7 +13,7 @@
   padding: 20px;
   display: inline;
 }
-a {
+.menu a{
   margin: 30px;
   padding: 20px;
   border: 1px solid red;
@@ -31,15 +31,19 @@ a {
   margin-left: 400px;
   margin-top: 50px;
 }
-.forms,
+
 label {
-  /* padding: 20px;
-    margin: 20px; */
-  align-items: center;
+  width: 240px;
+  display: inline-block;
+
 }
-.forms,
-input {
-  align-items: inherit;
+.controls{
+  width: 240px;
+  display: inline-block;
+}
+textarea {
+  width: 240px;
+  display: inline-block;
 }
 .button {
   background-color: #cccccc;
@@ -49,6 +53,28 @@ input {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 24px ;
   cursor: pointer;
+}
+.remarks{
+  position: relative;
+  margin-top: 20px;
+  
+}
+.box{
+  margin-top: 1px;
+    margin-left: 26%;
+
+}
+.bottom{
+  background-color: #ffffff;
+  border: 2px solid black;
+  padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.link{
+  margin-left: 33%;
 }
