@@ -19,7 +19,7 @@ The src attribute specifies the URL (web address) of the image
 
 * The HTML blockquote element defines a section that is quoted from another source
 
-**padding and margin**
+**Padding and Margin**
 
 * margin properties are used to create space around elements, outside of any defined borders
 * padding properties are used to generate space around an element's content, inside of any defined borders.
@@ -28,7 +28,7 @@ The src attribute specifies the URL (web address) of the image
 * for inline elements margin is for left and right
 * inline elements can be converted to block level and vice versa by display in css
 
-**position in css[0:40 tutorial 8]**
+**Position in css[0:40 tutorial 8]**
 * The position property specifies the type of positioning method used for an element.
 * There are five different position values:
 
@@ -60,7 +60,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 
 * z index:brings thins forward
 
-**pseudo classes**
+**Pseudo classes**
 
 * A CSS pseudo-element is used to style specified parts of an element.
 * For example, it can be used to:
@@ -87,9 +87,9 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 * The ::selection pseudo-element matches the portion of an element that is selected by a user.
 * The following CSS properties can be applied to ::selection: color, background, cursor, and outline.
 
-**media queries**
+**Media queries**
 * tell the browser how to style an  element at particular viewport dimensions
 
-**view port metatag**
+**View port metatag**
 * tells the browser what width the viewport should be
 * responsive imagesonly load smaller images for mobile devices
