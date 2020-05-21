@@ -1,0 +1,166 @@
+h1 {
+  font-size: 160%;
+}
+h2 {
+  font-size: 120%;
+}
+.topbar {
+  background-color: #cccccc;
+  border: 1px solid black;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+.main {
+  background-color: #dbdde2;
+}
+
+/* .menu a {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid red;
+  text-decoration: none;
+  background-color: #cccccc;
+} */
+.document {
+  background-color: #dae8fc;
+  border: 1px solid steelblue;
+  text-align: center;
+  margin: 40px;
+  padding: 10px;
+}
+.forms {
+  /* margin-left: 400px;
+  margin-top: 50px; */
+  margin-left: 30%;
+}
+
+label {
+  width: 240px;
+  display: inline-block;
+}
+.controls {
+  width: 240px;
+  display: inline-block;
+}
+textarea {
+  width: 240px;
+  display: inline-block;
+}
+.button {
+  background-color: #cccccc;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 24px;
+  cursor: pointer;
+}
+.remarks {
+  position: relative;
+  margin-top: 20px;
+}
+.box {
+  margin-top: 1px;
+  margin-left: 26%;
+}
+.bottom {
+  background-color: #ffffff;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 70%;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.link {
+  margin-left: 33%;
+}
+nav {
+  padding: 20px;
+}
+nav {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 18px;
+    } */
+/* .menu a {
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid red;
+  text-decoration: none;
+  background-color: #cccccc;
+  font-size: 18px;
+} */
+.blocks {
+  width: 18%;
+  height: 40px;
+  border: 2px solid red;
+  text-align: center;
+  padding-top: 30px;
+  display: inline-block;
+  text-decoration: none !important;
+  background-color: #cccccc;
+  color: #5e5eb0;
+  font-size: 100%;
+  
+}
+/* .top {
+  white-space: nowrap;
+    display: inline-block;
+    margin-left: 400px;
+    
+} */
+/* .menu{
+    width: 110%; */
+/* margin: 30px;
+    padding: 20px; */
+
+/* } */
+.top {
+  white-space: nowrap;
+  widows: 90%;
+  height: 100px;
+  margin-left: 7%;
+}
+a {
+  text-decoration: none;
+}
+.submitbutton {
+  margin-left: 225px;
+}
+.good {
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .menu a {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+  }
+  h1 {
+    font-size: 80%;
+  }
+  h2 {
+    font-size: 80%;
+  }
+  .blocks {
+    font-size: 80%;
+  }
+  .top {
+    align-items: center;
+  }
+  /* .top{
+      margin-left: 600px;
+      margin-right: 800px;
+  }  */
+}
