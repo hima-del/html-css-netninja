@@ -11,7 +11,7 @@ The src attribute specifies the URL (web address) of the image
 
 * HTML lists are defined with the ul (unordered/bullet list) or the ol (ordered/numbered list) tag, followed by li  tags (list items)
 
-* b - Bold text
+`<b>` - Bold text
 * strong - Important text
 * i - Italic text
 * em - Emphasized text
@@ -93,3 +93,6 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 **View port metatag**
 * tells the browser what width the viewport should be
 * responsive imagesonly load smaller images for mobile devices
+
+**CSS FLEXBOX BASICS**
+
