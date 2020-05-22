@@ -2,7 +2,7 @@
 * HTML is the standard markup language for Web pages.
 * HTML headings are defined with the `<h1>` to `<h6>` tags.
 * `<h1>` defines the most important heading.
-*`<h6>` defines the least important heading
+* `<h6>` defines the least important heading
 * HTML paragraphs are defined with the `<p>` tag
 * HTML links are defined with the `<a>` tag
 * The link's destination is specified in the href attribute
@@ -12,7 +12,7 @@ The src attribute specifies the URL (web address) of the image
 
 * HTML lists are defined with the `<ul>` (unordered/bullet list) or the `<ol>` (ordered/numbered list) tag, followed by `<li>`  tags (list items)
 
-*`<b>` - Bold text
+* `<b>` - Bold text
 * `<strong>` - Important text
 * `<i>` - Italic text
 * `<em>` - Emphasized text
