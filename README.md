@@ -1,23 +1,23 @@
 **BASICS OF HTML AND CSS**
 * HTML is the standard markup language for Web pages.
-* HTML headings are defined with the h1 to h6 tags.
-* h1 defines the most important heading. h6 defines the least important heading
-* HTML paragraphs are defined with the p tag
-* HTML links are defined with the a tag
+* HTML headings are defined with the `<h1>` to `<h6>` tags.
+* `<h1>` defines the most important heading.
+*`<h6>` defines the least important heading
+* HTML paragraphs are defined with the `<p>` tag
+* HTML links are defined with the `<a>` tag
 * The link's destination is specified in the href attribute
-* HTML images are defined with the img tag.The img tag is empty, it contains attributes only, and does not have a closing tag.
+* HTML images are defined with the `<img>` tag.The img tag is empty, it contains attributes only, and does not have a closing tag.
 The src attribute specifies the URL (web address) of the image
 * The source file (src), alternative text (alt), width, and height are provided as attributes
 
-* HTML lists are defined with the ul (unordered/bullet list) or the ol (ordered/numbered list) tag, followed by li  tags (list items)
+* HTML lists are defined with the `<ul>` (unordered/bullet list) or the `<ol>` (ordered/numbered list) tag, followed by `<li>`  tags (list items)
 
-`<b>` - Bold text
-* strong - Important text
-* i - Italic text
-* em - Emphasized text
-* small - Small text
-
-* The HTML blockquote element defines a section that is quoted from another source
+*`<b>` - Bold text
+* `<strong>` - Important text
+* `<i>` - Italic text
+* `<em>` - Emphasized text
+* `<small>` - Small text
+* `<blockquote>`-defines a section that is quoted from another source
 
 **Padding and Margin**
 
