@@ -1,0 +1,38 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+body {
+  background-color: #eee;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  /* flex-flow: column; */
+  /* flex-flow: row; */
+  /* justify-content: center;  */
+  /* justify-content: flex-end; */
+  flex-flow: row-reverse;
+  justify-content: flex-start;
+  height: 800px;
+}
+.box {
+  height: 100px;
+  min-width: 100px;
+  flex: 0 0 100px;
+}
+.one {
+  background-color: red;
+}
+.two {
+  background-color: green;
+}
+.three {
+  background-color: blue;
+}
