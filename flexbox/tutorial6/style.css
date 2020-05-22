@@ -1,0 +1,35 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+body {
+  background-color: #eee;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+.box {
+  height: 100px;
+  flex: 1 0 200px; /* flex grow flex shrink flex basis
+    flex: 1; /* flex grow and flex shrink to one and flex basis is zero */
+  /* flex-basis: 500px;  */
+}
+.one {
+  background-color: red;
+  /* flex-basis: 100px; */
+}
+.two {
+  background-color: green;
+  /* flex-basis: 200px; */
+}
+.three {
+  background-color: blue;
+  /* flex-basis: 300px; */
+}

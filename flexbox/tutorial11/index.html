@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="" class="fb">Facebook</a></li>
+                <li><a href="" class="tw">Twitter</a></li>
+            </ul>
+        </nav>
+        <div style="margin: 20px;">
+            <span>Layout:</span>
+            <a href="#" class="stack">Stack</a>
+            <a href="#" class="grid">Grid</a>
+        </div>
+
+        <section id="blocks">
+            <article>
+                <h2>Actions speak louder than words.</h2>
+                <p>What you do is more important than what you say.What you do is more important than what you say.What
+                    you do is more important than what you say.What you do is more important than what you say.</p>
+            </article>
+            <article>
+                <h2>A journey of a thousand miles begins with a single step</h2>
+                <p>You must begin something if you hope to finish it; something that takes a long time to finish begins
+                    with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.You must begin something if you hope to finish it; something that takes a long time to finish
+                    begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.</p>
+            </article>
+            <article>
+                <h2>A watched pot never boils</h2>
+                <p>If something takes time to do, it doesn’t help to constantly check on it. You just have to give it
+                    time.What you do is more important than what you say.You must begin something if you hope to finish
+                    it; something that takes a long time to finish begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.
+                </p>
+            </article>
+            <article>
+                <h2>A picture is worth a thousand words</h2>
+                <p>An image can tell a story better than wordsYou must begin something if you hope to finish it;
+                    something that takes a long time to finish begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.You must begin something if you hope to finish it; something that takes a long time to finish
+                    begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.</p>
+            </article>
+            <article>
+                <h2>Beggars can’t be choosers</h2>
+                <p>If you’re in a bad situation and someone offers to help you, you have to take whatever they give you
+                    and
+                    shouldn’t ask for more.You must begin something if you hope to finish it; something that takes a
+                    long time to finish begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.You must begin something if you hope to finish it; something that takes a long time to finish
+                    begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.</p>
+            </article>
+            <article>
+                <h2>Don’t bite the hand that feeds you</h2>
+                <p>Don’t make someone angry or hurt someone who is helping you or paying for you.You must begin
+                    something if you hope to finish it; something that takes a long time to finish begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.You must begin something if you hope to finish it; something that takes a long time to finish
+                    begins with
+                    one step.What you do is more important than what you say.What you do is more important than what you
+                    say.</p>
+            </article>
+        </section>
+
+    </div>
+    <script>
+        $("a.stack").on("click", function () { $("article").addClass("stack"); });
+        $("a.grid").on("click", function () { $("article").removeClass("stack"); });
+    </script>
+</body>
+
+</html>
