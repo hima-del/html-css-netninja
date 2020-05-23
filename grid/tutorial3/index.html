@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #content {
+        max-width: 960px;
+        margin: 0 auto;
+        display: grid;
+        /* grid-template-columns:30% 40% 30%; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-auto-rows: minmax(200px,auto) */
+        /* grid-template-rows: 200px 300px 400px 500px; */
+        grid-template-rows: repeat(10, minmax(200px, auto));
+        /* grid-column-gap:10px; to set gap btw colums only unlike margin
+        grid-row-gap: 20px; */
+        grid-gap: 20px;
+    }
+
+    #content div {
+        background: red;
+        padding: 30px;
+        /* margin: 30px; */
+    }
+
+    #content div:nth-child(even) {
+        background: seagreen;
+    }
+</style>
+
+<body>
+    <div id="content">
+        <div>1</div>
+        <div>2</div>
+        <div>Classes teach you all about advanced topics within CS, from operating systems to machine learning, but
+            there’s one critical subject that’s rarely covered, and is instead left to students to figure out on their
+            own: proficiency with their tools. We’ll teach you how to master the command-line, use a powerful text
+            editor, use fancy features of version control systems, and much more!
+
+            Students spend hundreds of hours using these tools over the course of their education (and thousands over
+            their career), so it makes sense to make the experience as fluid and frictionless as possible. Mastering
+            these tools not only enables you to spend less time on figuring out how to bend your tools to your will, but
+            it also lets you solve problems that would previously seem impossibly complex.</div>
+        <!-- the height of a row is governed by its content we can chenge the behaviour by using grid-auto-rows -->
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+</body>
+
+</html>
