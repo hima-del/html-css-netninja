@@ -96,3 +96,55 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 
 **CSS FLEXBOX BASICS**
 
+* The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill     the available space (mostly to accommodate to all kind of display devices and screen sizes).
+* A flex container expands items to fill available free space or shrinks them to prevent overflow.
+* main axis – The main axis of a flex container is the primary axis along which flex items are laid out.
+  it is not necessarily     horizontal; it depends on the flex-direction property 
+* cross axis – The axis perpendicular to the main axis is called the cross axis. 
+  Its direction depends on the main axis direction.
+   
+   **Properties for the Parent(flex container)**
+   
+   1.display
+   * This defines a flex container; inline or block depending on the given value.  
+     It enables a flex context for all its direct children.
+   2.  flex-direction
+   * This establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+     Flexbox is (aside from optional wrapping) a single-direction layout concept.
+     Think of flex items as primarily laying out either in horizontal rows or vertical columns
+     * row (default): left to right in ltr; right to left in rtl
+     * row-reverse: right to left in ltr; left to right in rtl
+     * column: same as row but top to bottom
+     * column-reverse: same as row-reverse but bottom to top
+   3.  flex-wrap
+    * By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this           property.
+      * nowrap (default): all flex items will be on one line
+      * wrap: flex items will wrap onto multiple lines, from top to bottom.
+      * wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
+   4. justify-content
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
