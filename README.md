@@ -94,6 +94,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 * tells the browser what width the viewport should be
 * responsive imagesonly load smaller images for mobile devices
 
+**nth-child selector in css**
 
 * The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. 
   n can be a number, a keyword, or a formula.
@@ -176,7 +177,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
        If one of the children has a value of 2, the remaining space would take up twice as much space as the others
        Negative numbers are invalid.
      3. flex-shrink
-      * This defines the ability for a flex item to shrink if necessary
+       *  This defines the ability for a flex item to shrink if necessary
      4. flex-basis
       * This defines the default size of an element before the remaining space is distributed.
         It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means “look at my width or height property” (which was         temporarily done by the main-size keyword until deprecated).
