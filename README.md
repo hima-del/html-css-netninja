@@ -97,9 +97,11 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 
 * The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. 
   n can be a number, a keyword, or a formula.
- ``` p:nth-child(2) {
+ ``` 
+ p:nth-child(2) {
   background: red;
-}```
+}
+```
   
 
 **CSS FLEXBOX BASICS**
