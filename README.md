@@ -94,6 +94,14 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 * tells the browser what width the viewport should be
 * responsive imagesonly load smaller images for mobile devices
 
+
+* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. 
+  n can be a number, a keyword, or a formula.
+ ``` p:nth-child(2) {
+  background: red;
+}```
+  
+
 **CSS FLEXBOX BASICS**
 
 * The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill     the available space (mostly to accommodate to all kind of display devices and screen sizes).
