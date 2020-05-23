@@ -105,7 +105,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
    
    **Properties for the Parent(flex container)**
    
-   1.display
+   1.  display
    * This defines a flex container; inline or block depending on the given value.  
      It enables a flex context for all its direct children.
    2.  flex-direction
