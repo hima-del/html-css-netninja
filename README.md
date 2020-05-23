@@ -155,6 +155,31 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
         * stretch (default): lines stretch to take up the remaining space
    
     **Properties for the Children(flex items)**
+    
+    1. order
+     * By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in          the flex container.
+    2. flex-grow
+     * This defines the ability for a flex item to grow if necessary. 
+       It accepts a unitless value that serves as a proportion.
+       It dictates what amount of the available space inside the flex container the item should take up.
+       If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children.
+       If one of the children has a value of 2, the remaining space would take up twice as much space as the others
+       Negative numbers are invalid.
+     3. flex-shrink
+      * This defines the ability for a flex item to shrink if necessary
+     4. flex-basis
+      * This defines the default size of an element before the remaining space is distributed.
+        It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means “look at my width or height property” (which was         temporarily done by the main-size keyword until deprecated).
+        The content keyword means “size it based on the item’s content” – this keyword isn’t well supported yet, so it’s hard to test           and harder to know what its brethren max-content, min-content, and fit-content do. 
+        If set to 0, the extra space around content isn’t factored in. 
+        If set to auto, the extra space is distributed based on its flex-grow value
+      5. flex
+        * This is the shorthand for flex-grow, flex-shrink and flex-basis combined.
+          The second and third parameters (flex-shrink and flex-basis) are optional.
+          The default is 0 1 auto, but if you set it with a single number value, it’s like 1 0. 
+      6. align-self    
+        * This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
+          
 
 
 
