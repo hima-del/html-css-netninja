@@ -116,9 +116,11 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
    
    **Properties for the Parent(flex container)**
    
+   
    1.  display
        * This defines a flex container; inline or block depending on the given value.  
        * It enables a flex context for all its direct children.
+   
    2.  flex-direction
        * This establishes the main-axis, thus defining the direction flex items are placed in the flex container.
        * Flexbox is (aside from optional wrapping) a single-direction layout concept.
@@ -127,11 +129,13 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
        * row-reverse: right to left in ltr; left to right in rtl
        * column: same as row but top to bottom
        * column-reverse: same as row-reverse but bottom to top
+   
    3.  flex-wrap
        *  By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this           property.
        *  nowrap (default): all flex items will be on one line
        *  wrap: flex items will wrap onto multiple lines, from top to bottom.
        *  wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
+   
    4. justify-content
        *  This defines the alignment along the main axis. 
        *  It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but               have reached their maximum size.
@@ -146,6 +150,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
        * space-between: items are evenly distributed in the line; first item is on the start line, last item on the end line
        * space-around: items are evenly distributed in the line with equal space around them. Note that visually the spaces aren’t                equal, since all the items have equal space on both sides. The first item will have one unit of space against the container              edge, but two units of space between the next item because that next item has its own spacing that applies.
         * space-evenly: items are distributed so that the spacing between any two items (and the space to the edges) is equal.
+   
    5. align-items
        *  This defines the default behavior for how flex items are laid out along the cross axis on the current line. 
        * Think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).
@@ -154,6 +159,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
        * flex-end / end / self-end: items are placed at the end of the cross axis. The difference again is subtle and is about                    respecting flex-direction rules vs. writing-mode rules.
        * center: items are centered in the cross-axis
        * baseline: items are aligned such as their baselines align
+    
     6.  align-content  
         *  This aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content                   aligns individual items within the main-axis.
         * This property has no effect when there is only one line of flex items.
@@ -169,6 +175,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
     
     1. order
        * By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in          the flex container.
+    
     2. flex-grow
        * This defines the ability for a flex item to grow if necessary. 
        * It accepts a unitless value that serves as a proportion.
@@ -176,19 +183,23 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
        * If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children.
        * If one of the children has a value of 2, the remaining space would take up twice as much space as the others
        * Negative numbers are invalid.
-     3. flex-shrink
+    
+    3. flex-shrink
         *  This defines the ability for a flex item to shrink if necessary
-     4. flex-basis
+    
+    4. flex-basis
         * This defines the default size of an element before the remaining space is distributed.
         * It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means “look at my width or height property” (which             was temporarily done by the main-size keyword until deprecated).
         * The content keyword means “size it based on the item’s content” – this keyword isn’t well supported yet, so it’s hard to test           and harder to know what its brethren max-content, min-content, and fit-content do. 
         * If set to 0, the extra space around content isn’t factored in. 
         * If set to auto, the extra space is distributed based on its flex-grow value
-      5. flex
+    
+    5. flex
          * This is the shorthand for flex-grow, flex-shrink and flex-basis combined.
           * The second and third parameters (flex-shrink and flex-basis) are optional.
           * The default is 0 1 auto, but if you set it with a single number value, it’s like 1 0. 
-      6. align-self    
+    
+    6. align-self    
          * This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items    
           
           **CSS GRID BASICS**
@@ -199,11 +210,13 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
         * Defines the element as a grid container and establishes a new grid formatting context for its contents.
         * Values:grid – generates a block-level grid
         * inline-grid – generates an inline-level grid
-     2. grid-template-columns/grid-template-rows
+    
+    2. grid-template-columns/grid-template-rows
         * Defines the columns and rows of the grid with a space-separated list of values. 
         * The values represent the track size, and the space between them represents the grid line.
         * Values:``<track-size>`` – can be a length, a percentage, or a fraction of the free space in the grid  
-     3. grid-template-area
+    
+    3. grid-template-area
         * Defines a grid template by referencing the names of the grid areas which are specified with the grid-area property.
           Values:``<grid-area-name>`` – the name of a grid area specified with grid-area OR – a period signifies an empty grid cell OR             none 
  
@@ -216,17 +229,20 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
          * span ``<number>`` – the item will span across the provided number of grid tracks
          * span ``<name>`` – the item will span across until it hits the next line with the provided name
          * auto – indicates auto-placement, an automatic span, or a default span of one
-      2. grid-column/grid-row
+    
+    2. grid-column/grid-row
          * Shorthand for grid-column-start + grid-column-end, and grid-row-start + grid-row-end, respectively.
          * Values:``<start-line> / <end-line>`` – each one accepts all the same values as the longhand version, including span
-      3. justify-self
+    
+    3. justify-self
          * Aligns a grid item inside a cell along the inline (row) axis (as opposed to align-self which aligns along the block (column)            axis). 
          * This value applies to a grid item inside a single cell.
          * Values:start – aligns the grid item to be flush with the start edge of the cell
            end – aligns the grid item to be flush with the end edge of the cell
            center – aligns the grid item in the center of the cell
            stretch – fills the whole width of the cell (this is the default)
-       4. align-self
+    
+    4. align-self
           * Aligns a grid item inside a cell along the block (column) axis (as opposed to justify-self which aligns along the inline                  (row) axis).
           * This value applies to the content inside a single grid item.
           * Values:start – aligns the grid item to be flush with the start edge of the cell
