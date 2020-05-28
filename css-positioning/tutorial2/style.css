@@ -1,0 +1,7 @@
+p,a{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    display:inline-block;
+}
