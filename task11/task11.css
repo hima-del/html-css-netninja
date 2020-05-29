@@ -223,7 +223,6 @@ body {
   grid-gap: 20px;
   width: 90%;
 }
-
 .f {
   border: 1px solid white;
   background-color: white;
@@ -488,12 +487,14 @@ footer {
   height: 150px;
   width: 100%;
 }
+.footer1 ul {
+  display: inline;
+}
 .footer1 {
-  display: flex;
   padding: 20px;
 }
-.footer2 {
-  padding-left: 370px;
+.copyright {
+  padding-left: 355px;
 }
 
 @media screen and (max-width: 1088px) {
@@ -755,28 +756,7 @@ footer {
     padding: 10px;
   }
 }
-@media screen and (max-width: 1186px) {
-  footer ul li {
-    display: inline;
-  }
-  footer ul li a {
-    padding: auto;
-  }
-  footer {
-    width: auto;
-  }
-  .footer1 {
-    display: flex;
-    padding: auto;
-  }
-  .footer2 {
-    padding-left: auto;
-  }
-  .footer1 ul {
-    display: inline;
-  }
-}
-@media screen and (max-width: 1104px) {
+@media screen and (max-width: 1172px) {
   .footer1 ul {
     display: block;
   }
