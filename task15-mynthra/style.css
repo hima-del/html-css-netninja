@@ -11,6 +11,7 @@ body {
   top: 0;
   left: 0;
   height: 60px;
+  z-index: 1;
 }
 .topbar ul li {
   display: inline;
@@ -60,9 +61,10 @@ body {
   color: grey;
 }
 .shop {
-  position: relative;
+  position: absolute;
   margin-block-start: 120px;
   display: grid;
+  align-content: center;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
   margin: 90px;
@@ -118,7 +120,7 @@ body {
   -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
   width: 36px;
-  padding: 4px;
+  /* padding: 4px; */
   height: 200px;
   vertical-align: middle;
   text-align: center;
@@ -134,4 +136,12 @@ body {
 .sidebarcontent p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+.arrow{
+    border-right: 14px solid #fff;
+    width: 0;
+    height: 0;
+    margin: 24px 16px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
 }
