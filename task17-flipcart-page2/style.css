@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topbar {
@@ -190,7 +190,7 @@ body {
 .range select {
     border: 1px solid #dbdbdb;
     background: white;
-    width: 6%;
+    width: 40%;
     color: #000;
     color: rgba(0, 0, 0, 0);
     text-shadow: 0 0 0 #000;
@@ -209,16 +209,16 @@ body {
 
 .question {
     position: absolute;
-    left: 190px;
+    left: 230px;
 }
 
 .sec3 i {
     color: gray;
     position: absolute;
-    left: 190px;
+    left: 230px;
 }
 
-.sec3 input[type=text] {
+.sec3 input[type="text"] {
     color: white;
     border: none;
     border-bottom: 2px solid gray;
@@ -239,21 +239,21 @@ body {
     left: 25px;
 }
 
- ::placeholder {
+::placeholder {
     padding-left: 20px;
 }
 
 .y i {
     color: gray;
     position: absolute;
-    left: 190px;
+    left: 230px;
 }
 
 .r i {
     color: gray;
 }
 
-.r input[type=text] {
+.r input[type="text"] {
     color: white;
     border: none;
     border-bottom: 2px solid gray;
@@ -262,4 +262,116 @@ body {
 
 .u i {
     color: black;
+}
+
+.dot1 {
+    height: 15px;
+    width: 15px;
+    background-color: beige;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot4 {
+    height: 15px;
+    width: 15px;
+    background-color: brown;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot5 {
+    height: 15px;
+    width: 15px;
+    background-color: darkblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot6 {
+    height: 15px;
+    width: 15px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.mainsection {
+    background-color: white;
+    margin: 10px;
+}
+
+.home {
+    margin: 20px;
+}
+
+.tshirt {
+    margin: 20px;
+}
+
+.sort {
+    margin: 20px;
+}
+
+.so {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.show {
+    font-size: 10px;
+    color: gray;
+    padding-left: 10px;
+}
+
+.home a {
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.home i {
+    font-size: 10px;
+}
+
+.tshirt div {
+    display: inline;
+}
+
+.sort div {
+    display: inline;
+}
+
+.sort a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 13px;
+}
+
+.imagecontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
