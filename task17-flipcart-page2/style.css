@@ -374,4 +374,39 @@ body {
 .imagecontainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.bb img {
+    width: 80px;
+    position: absolute;
+}
+
+.aa {
+    color: gray;
+    font-size: 14px;
+}
+
+.bb {
+    font-size: 14px;
+}
+
+.dd {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ee {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.ff {
+    color: #388e3c;
+    font-size: 15px;
+}
+
+.one span {
+    padding: 5px;
 }
