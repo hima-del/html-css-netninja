@@ -378,14 +378,6 @@ nav div:nth-child(2) {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.basic-nav {
-    line-height: 1.4;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    flex-direction: row;
-}
-
 .right a {
     padding: 0;
     margin: 0;
@@ -486,7 +478,7 @@ nav div:nth-child(2) {
     width: 100px;
 }
 
-.contentcontainer a {
+.content a {
     color: black;
     text-decoration: none;
     display: flex;
@@ -569,7 +561,7 @@ nav div:nth-child(2) {
     font-size: 14px;
 }
 
-.price div div {
+.price div {
     display: flex;
     flex-direction: row;
 }
