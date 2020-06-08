@@ -185,6 +185,7 @@ body {
 
 .sidebar {
     margin-left: 10px;
+    height: 4200px;
 }
 
 .range select {
@@ -374,7 +375,9 @@ body {
 .imagecontainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+    border-bottom: 2px solid #f2f2f2;
 }
 
 .bb img {
@@ -385,10 +388,28 @@ body {
 .aa {
     color: gray;
     font-size: 14px;
+    padding-left: 20px;
+}
+
+.one .aa {
+    padding-left: 20px;
+}
+
+.one .bb {
+    padding-left: 20px;
 }
 
 .bb {
     font-size: 14px;
+    padding-left: 20px;
+}
+
+.cc {
+    padding-left: 20px;
+}
+
+.one .cc {
+    padding-left: 20px;
 }
 
 .dd {
@@ -409,4 +430,94 @@ body {
 
 .one span {
     padding: 5px;
+}
+
+.l {
+    margin-left: 300px;
+}
+
+.bottom span {
+    padding: 10px;
+}
+
+.bottom {
+    font-size: 13px;
+    margin-top: 30px;
+    border-bottom: 10px solid #f2f2f2;
+    height: 70px;
+}
+
+.bottom .l .j {
+    border: 1px solid #2874f0;
+    background-color: #2874f0;
+    border-radius: 50%;
+    height: 10px;
+    width: 45px;
+}
+
+.bottom .l .k {
+    color: #2874f0;
+}
+
+.bottomsection {
+    background-color: white;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-bottom: 15px solid #f2f2f2;
+}
+
+.n {
+    padding: 8px 20px;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+.o {
+    padding: 8px 20px;
+    border: 1px solid gray;
+}
+
+.review {
+    background-color: white;
+    width: 100%;
+}
+
+.popular {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+}
+
+footer {
+    width: 100%;
+    max-width: 1299px;
+    min-width: 1052px;
+    background: #172337;
+    color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+    border: 1px solid #454d5a;
+}
+
+footer div {
+    padding: 10px;
+}
+
+footer div img {
+    width: 15px;
+    height: 15px;
+}
+
+footer div a {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+footer img {
+    height: 40px;
+    width: 350px;
 }
