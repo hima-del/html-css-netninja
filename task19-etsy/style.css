@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-box {
+    color: blue;
+}
+
+.search-box input[type="text"] {
+    border: 1px solid gray;
+    box-sizing: border-box;
+    height: 50px;
+    width: 950px;
+    border-radius: 30px;
+    padding-left: 40px;
+    background-color: #efefef;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box i {
+    position: absolute;
+    left: 900px;
+    top: 15px;
+    color: black;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.topbar {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
+}
+
+.topbarone {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr 1fr;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.topbarone .image img {
+    height: 5%;
+    width: 35%;
+}
+
+.topbarone .image img:hover {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sign {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: black;
+}
+
+.sign span:hover {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    border-radius: 26px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.topbartwo ul li a {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.topbartwo ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.etsy {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.find {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.shop {
+    border: 1px solid #efefef;
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px;
+    position: absolute;
+    top: 360px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.shop i {
+    padding-left: 5px;
+}
+
+.jew {
+    font-size: 40px;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+.maintwo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+}
+
+.maintwo i {
+    color: orangered;
+    font-size: 20px;
+}
+
+.x {
+    margin-top: 60px;
+    margin-left: 20px;
+    line-height: 1.7em;
+    font-size: 14px;
+    text-align: center;
+}
+
+.a {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.categories {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.popular {
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.section {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.gift {
+    font-weight: 600;
+}
