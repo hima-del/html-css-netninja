@@ -169,6 +169,7 @@ body {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    cursor: pointer;
 }
 
 .section {
@@ -178,4 +179,55 @@ body {
 
 .gift {
     font-weight: 600;
+}
+
+.h {
+    font-size: 14px;
+}
+
+.i {
+    font-size: 12px;
+    color: gray;
+}
+
+.k {
+    color: gray;
+    font-size: 13px;
+}
+
+.l {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.w {
+    line-height: 1.5em;
+}
+
+.free {
+    border: 1px solid #d4e9d7;
+    background-color: #d4e9d7;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 4px;
+}
+
+.m {
+    font-size: 12px;
+}
+
+.best {
+    border: 1px solid #efdec7;
+    background-color: #efdec7;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 4px;
+    display: flex;
+    width: 80px;
+    height: 23px;
+}
+
+.best img {
+    width: 25px;
+    height: 25px;
 }
