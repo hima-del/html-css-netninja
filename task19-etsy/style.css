@@ -149,6 +149,10 @@
                         padding-bottom: 4%;
                     }
                     
+                    .etsyimage {
+                        width: 100%;
+                    }
+                    
                     .find {
                         width: 100%;
                     }
@@ -164,11 +168,12 @@
                         border: 1px solid #efefef;
                         background-color: white;
                         border-radius: 5px;
-                        padding: 12px;
+                        padding: 1%;
                         position: absolute;
-                        top: 50%;
+                        top: 60%;
                         left: 2%;
                         cursor: pointer;
+                        font-size: 90%;
                     }
                     
                     .shop i {
@@ -176,9 +181,9 @@
                     }
                     
                     .jew {
-                        font-size: 40px;
+                        font-size: 180%;
                         position: absolute;
-                        top: 35%;
+                        top: 45%;
                         left: 2%;
                     }
                     
@@ -532,16 +537,16 @@
                             border: 1px solid #efefef;
                             background-color: white;
                             border-radius: 5px;
-                            padding: 12px;
+                            padding: 1%;
                             position: absolute;
-                            top: 50%;
+                            top: 60%;
                             left: 2%;
                             cursor: pointer;
                         }
                         .jew {
-                            font-size: 40px;
+                            font-size: 180%;
                             position: absolute;
-                            top: 35%;
+                            top: 45%;
                             left: 2%;
                         }
                     }
@@ -549,17 +554,5 @@
                     @media screen and (min-width: 901px) {
                         .mobview {
                             display: none;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 536px) {
-                        .shop {
-                            margin-top: 18%;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 498px) {
-                        .jew {
-                            margin-top: 10%;
                         }
                     }
