@@ -278,3 +278,189 @@ body {
     margin-left: 160px;
     margin-top: 50px;
 }
+
+.local h4 {
+    color: #d32323;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.local img {
+    cursor: pointer;
+}
+
+.k {
+    color: gray;
+    font-weight: 500;
+}
+
+.local .f a {
+    text-decoration: none;
+    color: #1b7ec3;
+}
+
+.local .f a:hover {
+    text-decoration: underline;
+    color: #1b7ec3;
+}
+
+.see a {
+    color: #1b7ec3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.local .see {
+    text-align: center;
+}
+
+.local .see a:hover {
+    text-decoration: underline;
+}
+
+.local .f {
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: black;
+}
+
+.review h4 {
+    color: #d32323;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.review {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 75%;
+    margin-left: 160px;
+}
+
+.day img {
+    width: 3%;
+    height: 1%;
+}
+
+.n img {
+    width: 10%;
+}
+
+.l {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 35%;
+}
+
+.wait {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.wait {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.review img {
+    cursor: pointer;
+}
+
+.m a {
+    text-decoration: none;
+    color: #1b7ec3;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.m a:hover {
+    text-decoration: underline;
+}
+
+.o {
+    font-size: 13px;
+}
+
+.p a {
+    color: orange;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.p a:hover {
+    text-decoration: underline;
+}
+
+.z {
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    padding-right: 470px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.day a {
+    text-decoration: none;
+    color: #1b7ec3;
+}
+
+.day a:hover {
+    text-decoration: underline;
+}
+
+.see a {
+    color: #1b7ec3;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.review .see {
+    text-align: center;
+}
+
+.review .see a:hover {
+    text-decoration: underline;
+}
+
+.bottomone h3 {
+    color: #d32323;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bottomtwo h3 {
+    color: #d32323;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.one {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 75%;
+    margin-left: 160px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+    margin-left: 160px;
+}
+
+.bottomone {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    height: 450px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+}
