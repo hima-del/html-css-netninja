@@ -461,6 +461,49 @@ body {
     height: 450px;
 }
 
+.footer h4 {
+    color: #d32323;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #1b7ec3;
+    display: block;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
 .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 75%;
+    margin-left: 160px;
+}
+
+.backgroundclass {
     background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footerimage {
+    margin-left: 280px;
+}
+
+.q {
+    color: gray;
+    font-size: 13px;
+}
+
+.r a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1b7ec3;
+}
+
+.r a :hover {
+    text-decoration: underline;
 }
