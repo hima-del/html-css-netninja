@@ -55,3 +55,38 @@
 .hot {
     height: 400px;
 }
+
+.checked {
+    color: white;
+    background: #d32323;
+    padding: 3px;
+}
+
+.fa-star-half-o {
+    color: red;
+    background: gray;
+    padding: 3px;
+}
+
+.a {
+    display: flex;
+}
+
+.unchecked {
+    color: white;
+    background: gray;
+    padding: 3px;
+}
+
+
+/* #one {
+    order: 3;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 1;
+} */
