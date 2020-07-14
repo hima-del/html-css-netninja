@@ -218,8 +218,8 @@ body {
 }
 
 .star img {
-    height: 6%;
-    width: 7%;
+    height: 20px;
+    width: 20px;
 }
 
 .g img {
@@ -506,4 +506,57 @@ body {
 
 .r a :hover {
     text-decoration: underline;
+}
+
+.activity h3 {
+    color: #d32323;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 45%;
+    margin-left: 160px;
+    grid-gap: 20px;
+}
+
+.activity .f {
+    font-size: 14px;
+}
+
+.new {
+    white-space: nowrap;
+}
+
+.local {
+    white-space: nowrap;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.like img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.liked {
+    color: gray;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.badge img {
+    margin-left: 200px;
 }
