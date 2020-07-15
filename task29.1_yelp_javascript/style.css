@@ -1,0 +1,92 @@
+.hot h4 {
+    color: #d32323;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.new {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    position: absolute;
+    left: 12%;
+}
+
+.star img {
+    height: 6%;
+    width: 7%;
+}
+
+.g img {
+    height: 3%;
+    width: 16%;
+}
+
+.d {
+    color: #1b7ec3;
+    font-weight: 700;
+}
+
+.e {
+    color: gray;
+    font-size: 14px;
+}
+
+.f {
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.h {
+    color: orange;
+    font-size: 15px;
+}
+
+.line {
+    line-height: 1.6em;
+}
+
+.halfstar img {
+    height: 5%;
+    width: 46%;
+}
+
+.hot {
+    height: 400px;
+}
+
+.checked {
+    color: white;
+    background: #d32323;
+    padding: 3px;
+}
+
+.fa-star-half-o {
+    color: red;
+    background: gray;
+    padding: 3px;
+}
+
+.a {
+    display: flex;
+}
+
+.unchecked {
+    color: white;
+    background: gray;
+    padding: 3px;
+}
+
+
+/* #one {
+    order: 3;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 1;
+} */

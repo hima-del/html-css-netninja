@@ -1,0 +1,19 @@
+[{
+        "id": 1,
+        "review": 4,
+        "stars": 4.5,
+        "weeks": 2
+    },
+    {
+        "id": 2,
+        "review": 8,
+        "stars": 1,
+        "weeks": 4
+    },
+    {
+        "id": 3,
+        "review": 11,
+        "stars": 2,
+        "weeks": 3
+    }
+]
