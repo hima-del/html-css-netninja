@@ -9,7 +9,37 @@ body {
 .black {
     background-color: black;
     height: 570px;
-    width: 100%
+}
+
+@media screen and (max-width: 1096px) {
+    .black {
+        width: 1400px;
+    }
+    .gridmain {
+        width: 1400px;
+    }
+    .hot {
+        width: 1400px;
+    }
+    .san h3 {
+        text-align: center;
+        margin-left: 550px;
+        white-space: nowrap;
+    }
+    .hot h3 {
+        text-align: center;
+        white-space: nowrap;
+    }
+    .activity h3 {
+        text-align: center;
+        margin-left: 550px;
+        white-space: nowrap;
+    }
+    .bottomtwo h3 {
+        text-align: center;
+        margin-left: 550px;
+        white-space: nowrap;
+    }
 }
 
 .left {
@@ -72,15 +102,15 @@ body {
 
 .yelp img {
     position: absolute;
-    left: 45%;
-    top: 20%;
+    left: 655px;
+    top: 90px;
 }
 
 .search-box input[type="text"] {
     border: 1px solid white;
     box-sizing: border-box;
     height: 45px;
-    width: 70%;
+    width: 60%;
     border-radius: 2px;
     padding-left: 3%;
 }
@@ -93,7 +123,7 @@ body {
 
 .search-box i {
     position: absolute;
-    left: 69%;
+    left: 59%;
     border: 2px solid #d32323;
     padding: 13px;
     background-color: #d32323;
@@ -118,21 +148,27 @@ body {
     color: white;
 }
 
-.mainnavbar ul li {
-    display: inline;
+.mainnavbar ul {
+    display: flex;
 }
 
-.mainnavbar {
+
+/* .mainnavbar {
     position: absolute;
     top: 50%;
     left: 30%;
+} */
+
+.mainnavbar {
+    margin-top: 16.5%;
+    margin-left: 30%;
 }
 
 .content {
     color: white;
-    position: absolute;
+    /* position: absolute;
     top: 60%;
-    left: 30%;
+    left: 30%; */
     text-align: center;
 }
 
@@ -166,14 +202,13 @@ body {
 
 .gridmain {
     background-color: #f2f2f2;
-    width: 100%;
 }
 
 .main {
     display: flex;
     /* grid-template-columns: repeat(4, 1fr); */
     background-color: #f2f2f2;
-    width: 100%;
+    /* width: 100%; */
     /* margin-left: 140px; */
     align-items: center;
     justify-content: center;
@@ -188,9 +223,10 @@ body {
     width: 90%;
 }
 
-.d img {
+
+/* .d img {
     width: 90%;
-}
+} */
 
 .san h3 {
     color: #d32323;
@@ -231,30 +267,30 @@ body {
         padding: 15px;
         white-space: nowrap;
     }
-    .san h3 {
+    /* .san h3 {
         color: #d32323;
         text-align: center;
         padding-top: 20px;
-        padding-bottom: 20px;
-        /* margin-left: 250px; */
-        white-space: nowrap;
+        padding-bottom: 20px; */
+    /* margin-left: 250px; */
+    /* white-space: nowrap;
         font-size: 25px;
     }
     .hot h4 {
         color: #d32323;
         text-align: center;
-        padding-top: 20px;
-        /* margin-left: 250px; */
-        white-space: nowrap;
+        padding-top: 20px; */
+    /* margin-left: 250px; */
+    /* white-space: nowrap;
         font-size: 25px;
     }
     .gridmain h3 {
         color: #d32323;
         text-align: center;
         padding-top: 20px;
-        padding-bottom: 20px;
-        /* margin-left: 250px; */
-        white-space: nowrap;
+        padding-bottom: 20px; */
+    /* margin-left: 250px; */
+    /* white-space: nowrap;
         font-size: 25px;
     }
     .bottomone h3 {
@@ -262,20 +298,20 @@ body {
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
-        margin-top: 20px;
-        /* margin-left: 250px; */
-        white-space: nowrap;
+        margin-top: 20px; */
+    /* margin-left: 250px; */
+    /* white-space: nowrap;
         font-size: 25px;
     }
     .bottomtwo h3 {
         color: #d32323;
         text-align: center;
         padding-top: 20px;
-        padding-bottom: 20px;
-        /* margin-left: 250px; */
-        white-space: nowrap;
+        padding-bottom: 20px; */
+    /* margin-left: 250px; */
+    /* white-space: nowrap;
         font-size: 25px;
-    }
+    } */
 }
 
 @media screen and (max-width: 993px) {
@@ -293,23 +329,22 @@ body {
 }
 
 @media screen and (max-width: 924px) {
-    .gridmain {
+    /* .gridmain {
         background-color: #f2f2f2;
         width: 100%;
-    }
-    .main {
-        display: flex;
-        /* grid-template-columns: repeat(4, 1fr); */
-        background-color: #f2f2f2;
-        /* width: 70%; */
-        /* margin-left: 140px; */
-        align-items: center;
+    } */
+    /* .main {
+        display: flex; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* background-color: #f2f2f2; */
+    /* width: 70%; */
+    /* margin-left: 140px; */
+    /* align-items: center;
         justify-content: center;
-    }
+    } */
     .bottomone {
         background-color: #f2f2f2;
-        width: 100%;
-        height: 430px;
+        width: 1400px;
     }
     .bottomone img {
         padding: 10px;
@@ -334,19 +369,15 @@ body {
         /* grid-template-columns: repeat(4, 1fr); */
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 1400px;
         background-color: #f2f2f2;
     }
 }
 
-.hot h4 {
+.hot h3 {
     color: #d32323;
     text-align: center;
     padding-top: 20px;
-}
-
-.hot {
-    width: 100%;
 }
 
 .new {
@@ -637,7 +668,6 @@ body {
     grid-template-columns: repeat(4, 1fr);
     /* align-items: center;
     justify-content: center; */
-    width: 100%;
     background-color: #f2f2f2;
 }
 
