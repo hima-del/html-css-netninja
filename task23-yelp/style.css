@@ -795,3 +795,16 @@ body {
 .badge img {
     margin-left: 230px;
 }
+
+.mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 767.9px) {
+    .mobile-view {
+        display: flex;
+    }
+    body .desktop-view {
+        display: none;
+    }
+}
