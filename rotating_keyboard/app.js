@@ -24,7 +24,7 @@ function addClass() {
 }
 
 function removeClass() {
-    console.log('hello');
+    // console.log('hello');
     for (let i = 0; i < rows.length; i++) {
         data[0][i].classList.remove('horizontalselection');
 
