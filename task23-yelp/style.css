@@ -813,6 +813,7 @@ body {
         justify-content: space-between;
         width: 100%;
         height: 60px;
+        max-width: 360px;
     }
     .mobright i {
         color: white;
@@ -882,7 +883,7 @@ body {
     }
     .mobhot {
         width: 100%;
-        max-width: 500px;
+        max-width: 360px;
     }
     .business {
         width: 90%;
