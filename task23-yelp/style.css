@@ -915,4 +915,18 @@ body {
         color: #0097ec;
         margin-left: 5px;
     }
+    .foot a {
+        text-decoration: none;
+        color: #0097ec;
+        font-size: 15px;
+    }
+    .foot a:hover {
+        text-decoration: underline;
+    }
+    .copy {
+        white-space: nowrap;
+        line-height: 1.8em;
+        font-size: 90%;
+        text-align: center;
+    }
 }
