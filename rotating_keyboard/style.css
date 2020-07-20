@@ -45,6 +45,46 @@
         border-radius: 10px;
     }
     
+    .back {
+        border: 1px solid white;
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .enter {
+        border: 1px solid white;
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .up {
+        border: 1px solid white;
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .down {
+        border: 1px solid white;
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
     h1 {
         color: gray;
     }
