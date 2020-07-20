@@ -9,6 +9,7 @@ const tap = document.querySelector('.tap');
 const container = document.querySelector('.container');
 let dispaly = document.querySelector('.screen');
 state = 'initial';
+let x;
 tap.addEventListener('click', handleClick);
 let data = [row1, row2, row3, row4, row5, row6];
 let index = 0;
@@ -50,6 +51,11 @@ function columnRotation() {
 function getValue() {
     let sample = data[prevIndex].children[prevColIndex].textContent;
     dispaly.innerHTML += sample;
+    if (data[prevIndex].children[prevColIndex].classList.contains('enter')) {
+        dispaly.innerHTML += '<br>';
+    } else if (data[prevIndex].children[prevColIndex].classList.contains('space')) {
+        dispaly.innerHTML += ' ';
+    }
 }
 // const row1 = document.getElementById('one');
 // const row2 = document.getElementById('two');
