@@ -88,6 +88,7 @@ body {
     border-radius: 10px;
     font-size: 20px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .special {
@@ -98,6 +99,7 @@ body {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    font-weight: bolder;
     font-size: 20px;
     text-align: center;
 }
@@ -110,6 +112,7 @@ body {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    font-weight: bolder;
     font-size: 20px;
     text-align: center;
 }
