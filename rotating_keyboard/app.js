@@ -53,16 +53,13 @@ function getValue() {
     if (data[prevIndex].children[prevColIndex].classList.contains('letter')) {
         let sample = data[prevIndex].children[prevColIndex].textContent;
         dispaly.innerHTML += sample;
-    }
-    if (data[prevIndex].children[prevColIndex].classList.contains('number')) {
+    } else if (data[prevIndex].children[prevColIndex].classList.contains('number')) {
         let sample = data[prevIndex].children[prevColIndex].textContent;
         dispaly.innerHTML += sample;
-    }
-    if (data[prevIndex].children[prevColIndex].classList.contains('special')) {
+    } else if (data[prevIndex].children[prevColIndex].classList.contains('special')) {
         let sample = data[prevIndex].children[prevColIndex].textContent;
         dispaly.innerHTML += sample;
-    }
-    if (data[prevIndex].children[prevColIndex].classList.contains('enter')) {
+    } else if (data[prevIndex].children[prevColIndex].classList.contains('enter')) {
         dispaly.innerHTML += '<br>';
 
     } else if (data[prevIndex].children[prevColIndex].classList.contains('space')) {
@@ -72,18 +69,24 @@ function getValue() {
         dispaly.innerHTML = text.slice(0, -1);
     } else if (data[prevIndex].children[prevColIndex].classList.contains('case')) {
 
-        if (status !== "smalletter")
+        if (status !== "smalletter") {
             for (let i = 0; i < letters.length; i++) {
                 let text = letters[i].textContent.toLowerCase();
                 letters[i].innerHTML = text;
                 status = "smalletter";
-
-            } else {
-                for (let i = 0; i < letters.length; i++) {
-                    let text = letters[i].textContent.toUpperCase();
-                    letters[i].innerHTML = text;
-                    status = "capital"
-                }
             }
+
+        } else {
+            for (let i = 0; i < letters.length; i++) {
+                let text = letters[i].textContent.toUpperCase();
+                letters[i].innerHTML = text;
+                status = "capital"
+            }
+        }
+
+    } else if (data[prevIndex].children[prevColIndex].classList.contains('down')) {
+
+    } else if (data[prevIndex].children[prevColIndex].classList.contains('up')) {
+
     }
 }
