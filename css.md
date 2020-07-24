@@ -145,3 +145,39 @@
   transform: translate(-50%, -50%);
 }
 ```
+
+**Units in css**
+
+**Absolute Units**
+* Units that are “absolute” are the same size regardless of the parent element or window size.
+* This means a property set with a value that has an absolute unit will be that size when looked at on a phone or on a large monitor.
+* Absolute units can be useful when working on a project where responsiveness is not being considered. 
+* For example, desktop apps that can’t be resized can be styled for the default dimensions. 
+*  Absolute units can be less favourable for responsive sites because they don't scale when the screen size changes.
+
+Absolute Unit	| Description |	Example
+|-------------|------------|--------|
+px	|1/96 of 1 inch (96px = 1 inch) |	font-size: 12px;
+pt	|1/72 of 1 inch (72pt = 1 inch)	|font-size: 12pt;
+pc	|12pt = 1pc	                    |font-size: 1.2pc;
+cm	|centimeter	                    |font-size: 0.6cm;
+mm	|millimeter (10 mm = 1 cm)	    |font-size: 4mm;
+in	|inches	                        |font-size: 0.2in;
+
+**Relative units**
+
+* Relative units are useful for styling responsive sites because they scale relative to the parent or window size.
+* As a general rule, relative units can be used as the default for responsive sites. 
+* This can help us to avoid having to update styles for different screen sizes.
+
+Relative Unit |	Description
+|-------------|-----------|
+|%	          |Relative to the parent element’s value for that property|
+|em	          |Relative to the current font-size of the element|
+rem	          |Relative to the font-size of the root (e.g. the <html> element). “rem” = “root em”|
+ch	          |Number of characters (1 character is equal to the width of the current font’s 0/zero)|
+vh	          |Relative to the height of the viewport (window or app size). 1vh = 1/100 of the viewport’s height|
+vw	          |Relative to the width of viewport. 1vw = 1/100 of the viewport’s width.|
+vmin          |Relative to viewport’s smaller dimension (e.g. for portrait orientation, the width is smaller than the height so it’s relative to the width). 1vmin = 1/100 of                    viewport’s smaller dimension.|
+vmax	        |Relative to viewport’s larger dimension (e.g. height for portrait orientation). 1vmax = 1/100 of viewport’s larger dimension.|
+ex	          |Relative to height of the current font’s lowercase “x”.|
