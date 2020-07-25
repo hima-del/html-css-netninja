@@ -181,3 +181,23 @@ vw	          |Relative to the width of viewport. 1vw = 1/100 of the viewport’s
 vmin          |Relative to viewport’s smaller dimension (e.g. for portrait orientation, the width is smaller than the height so it’s relative to the width). 1vmin = 1/100 of                    viewport’s smaller dimension.|
 vmax	        |Relative to viewport’s larger dimension (e.g. height for portrait orientation). 1vmax = 1/100 of viewport’s larger dimension.|
 ex	          |Relative to height of the current font’s lowercase “x”.|
+  
+  
+**box shadow property**
+
+* The box-shadow CSS property adds shadow effects around an element's frame.
+
+```
+box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
+
+```
+
+* The horizontal offset : (required) Positive means the shadow will be on the right of the box, a negative offset will put the shadow on the left of the box.
+* The vertical offset (required) A negative one means the box-shadow will be above the box, a positive one means the shadow will be below the box.
+* The blur radius : (required) If set to 0 the shadow will be sharp, the higher the number, the more blurred it will be, and the further out the shadow will extend. 
+                   For instance a shadow with 5px of horizontal offset that also has a 5px blur radius will be 10px of total shadow.
+* The spread radius : (optional) Positive values increase the size of the shadow, negative values decrease the size. Default is 0 (the shadow is same size as blur).
+* Color : (required) Takes any color value, like hex, named, rgba or hsla. If the color value is omitted, box shadows are drawn in the foreground color (text color). But be               aware, older WebKit browsers (pre Chrome 20 and Safari 6) ignore the rule when color is omitted.
+  
+  
+  
