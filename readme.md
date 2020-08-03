@@ -250,6 +250,12 @@ transform: initial;
 transform: unset;
 ```
 
+**HTML Attributes**
+
+* HTML attributes generally appear as name-value pairs, separated by =, and are written within the start tag of an element, after the element's name:
+```
+<element attribute="value">element content</element>
+```
   
   
   
