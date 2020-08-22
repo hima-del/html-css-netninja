@@ -256,6 +256,74 @@ transform: unset;
 ```
 <element attribute="value">element content</element>
 ```
+
+**SVG**
+
+* SVG stands for Scalable Vector Graphics.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+</body>
+</html>
+```
+
+* An SVG image begins with an <svg> element
+* The width and height attributes of the <svg> element define the width and height of the SVG image
+* The <circle> element is used to draw a circle
+* The cx and cy attributes define the x and y coordinates of the center of the circle. 
+* If cx and cy are not set, the circle's center is set to (0, 0)
+* The r attribute defines the radius of the circle
+* The stroke and stroke-width attributes control how the outline of a shape appears.
+* The fill attribute refers to the color inside the circle. 
+* The closing </svg> tag closes the SVG image
   
+* Rectangle <rect>
+* Circle <circle>
+* Ellipse <ellipse>
+* Line <line>
+* Polyline <polyline>
+* Polygon <polygon>
+* Path <path>  
+  
+  ```
+  //ellipse
+  <svg height="140" width="500">
+  <ellipse cx="200" cy="80" rx="100" ry="50"
+  style="fill:yellow;stroke:purple;stroke-width:2" />
+  </svg>
+  ```
+ 
+* The cx attribute defines the x coordinate of the center of the ellipse
+* The cy attribute defines the y coordinate of the center of the ellipse
+* The rx attribute defines the horizontal radius
+* The ry attribute defines the vertical radius
+  
+  
+* M = moveto
+* L = lineto
+* H = horizontal lineto
+* V = vertical lineto
+* C = curveto
+* S = smooth curveto
+* Q = quadratic Bézier curve
+* T = smooth quadratic Bézier curveto
+* A = elliptical Arc
+* Z = closepath  
+
+```
+<svg height="210" width="400">
+  <path d="M150 0 L75 200 L225 200 Z" />
+</svg>
+```
+
+* The example below defines a path that starts at position 150,0 with a line to position 75,200 then from there, a line to 225,200 and
+  finally closing the path back to 150,0
   
   
