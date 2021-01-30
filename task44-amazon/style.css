@@ -1,0 +1,27 @@
+.search-box {
+    color: blue;
+}
+
+.search-box input[type="text"] {
+    border: 1px solid gray;
+    box-sizing: border-box;
+    height: 40px;
+    width: 210px;
+    border-radius: 5px;
+    padding-left: 40px;
+    opacity: 0.8;
+}
+
+.search-box a:active {
+    color: blue;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box i {
+    position: absolute;
+    left: 7px;
+    top: 10px;
+}
